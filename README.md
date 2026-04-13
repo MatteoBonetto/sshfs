@@ -24,13 +24,13 @@ This guide explains how to mount a remote filesystem over SSH on Windows and Lin
 ### 🔗 Mount
 
 ```
-net use X: \\sshfs\user@host\path
+net use X: \\sshfs\user@host
 ```
 
 Example:
 
 ```
-net use X: \\sshfs\john@fileserver\home\john
+net use X: \\sshfs\john@fileserver
 ```
 
 ---
